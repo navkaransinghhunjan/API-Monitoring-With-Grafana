@@ -12425,3 +12425,180 @@ ValueError: Demo Error!
 2024-11-30 14:57:12,019 - ERROR - Hello, World!
 2024-11-30 14:57:12,020 - ERROR - Hello, World!
 2024-11-30 14:57:12,022 - ERROR - Hello, World!
+2024-11-30 14:57:22,108 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:57:27,114 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:57:30,122 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:57:30,147 - ERROR - Random status code generated: 500
+2024-11-30 14:57:30,151 - ERROR - Random status code generated: 500
+2024-11-30 14:57:30,152 - ERROR - Random status code generated: 500
+2024-11-30 14:57:30,156 - ERROR - Random status code generated: 400
+2024-11-30 14:57:30,157 - ERROR - Random status code generated: 400
+2024-11-30 14:57:30,159 - ERROR - Random status code generated: 400
+2024-11-30 14:57:35,181 - ERROR - Hello, World!
+2024-11-30 14:57:35,183 - ERROR - Hello, World!
+2024-11-30 14:57:35,184 - ERROR - Hello, World!
+2024-11-30 14:57:35,186 - ERROR - Hello, World!
+2024-11-30 14:57:35,187 - ERROR - Hello, World!
+2024-11-30 14:57:35,188 - ERROR - Hello, World!
+2024-11-30 14:57:35,190 - ERROR - Hello, World!
+2024-11-30 14:57:35,191 - ERROR - Hello, World!
+2024-11-30 14:57:35,192 - ERROR - Hello, World!
+2024-11-30 14:57:35,193 - ERROR - Hello, World!
+2024-11-30 14:57:50,311 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:57:55,322 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:00,331 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:00,363 - ERROR - Random status code generated: 400
+2024-11-30 14:58:00,369 - ERROR - Random status code generated: 400
+2024-11-30 14:58:00,386 - ERROR - Random status code generated: 400
+2024-11-30 14:58:00,390 - ERROR - Random status code generated: 500
+2024-11-30 14:58:00,393 - ERROR - Random status code generated: 500
+2024-11-30 14:58:05,421 - ERROR - Hello, World!
+2024-11-30 14:58:05,427 - ERROR - Hello, World!
+2024-11-30 14:58:05,432 - ERROR - Hello, World!
+2024-11-30 14:58:05,436 - ERROR - Hello, World!
+2024-11-30 14:58:05,438 - ERROR - Hello, World!
+2024-11-30 14:58:05,440 - ERROR - Hello, World!
+2024-11-30 14:58:05,441 - ERROR - Hello, World!
+2024-11-30 14:58:05,442 - ERROR - Hello, World!
+2024-11-30 14:58:05,443 - ERROR - Hello, World!
+2024-11-30 14:58:05,444 - ERROR - Hello, World!
+2024-11-30 14:58:20,541 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:22,547 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:25,556 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:25,585 - ERROR - Random status code generated: 500
+2024-11-30 14:58:30,614 - ERROR - Hello, World!
+2024-11-30 14:58:30,620 - ERROR - Hello, World!
+2024-11-30 14:58:30,625 - ERROR - Hello, World!
+2024-11-30 14:58:30,629 - ERROR - Hello, World!
+2024-11-30 14:58:30,631 - ERROR - Hello, World!
+2024-11-30 14:58:30,632 - ERROR - Hello, World!
+2024-11-30 14:58:30,634 - ERROR - Hello, World!
+2024-11-30 14:58:30,635 - ERROR - Hello, World!
+2024-11-30 14:58:30,636 - ERROR - Hello, World!
+2024-11-30 14:58:30,637 - ERROR - Hello, World!
+2024-11-30 14:58:43,718 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:48,726 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:51,731 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:58:51,766 - ERROR - Random status code generated: 400
+2024-11-30 14:58:51,781 - ERROR - Random status code generated: 400
+2024-11-30 14:58:51,785 - ERROR - Random status code generated: 500
+2024-11-30 14:58:51,788 - ERROR - Random status code generated: 500
+2024-11-30 14:58:51,790 - ERROR - Random status code generated: 500
+2024-11-30 14:58:51,793 - ERROR - Random status code generated: 400
+2024-11-30 14:58:51,794 - ERROR - Random status code generated: 400
+2024-11-30 14:58:56,822 - ERROR - Hello, World!
+2024-11-30 14:58:56,828 - ERROR - Hello, World!
+2024-11-30 14:58:56,833 - ERROR - Hello, World!
+2024-11-30 14:58:56,837 - ERROR - Hello, World!
+2024-11-30 14:58:56,841 - ERROR - Hello, World!
+2024-11-30 14:58:56,844 - ERROR - Hello, World!
+2024-11-30 14:58:56,846 - ERROR - Hello, World!
+2024-11-30 14:58:56,848 - ERROR - Hello, World!
+2024-11-30 14:58:56,850 - ERROR - Hello, World!
+2024-11-30 14:58:56,851 - ERROR - Hello, World!
+2024-11-30 14:59:11,931 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:59:13,934 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:59:14,937 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:59:14,953 - ERROR - Random status code generated: 400
+2024-11-30 14:59:14,955 - ERROR - Random status code generated: 400
+2024-11-30 14:59:14,959 - ERROR - Random status code generated: 400
+2024-11-30 14:59:14,961 - ERROR - Random status code generated: 400
+2024-11-30 14:59:14,963 - ERROR - Random status code generated: 400
+2024-11-30 14:59:14,964 - ERROR - Random status code generated: 400
+2024-11-30 14:59:19,986 - ERROR - Hello, World!
+2024-11-30 14:59:19,987 - ERROR - Hello, World!
+2024-11-30 14:59:19,989 - ERROR - Hello, World!
+2024-11-30 14:59:19,990 - ERROR - Hello, World!
+2024-11-30 14:59:19,991 - ERROR - Hello, World!
+2024-11-30 14:59:19,992 - ERROR - Hello, World!
+2024-11-30 14:59:19,994 - ERROR - Hello, World!
+2024-11-30 14:59:19,995 - ERROR - Hello, World!
+2024-11-30 14:59:19,996 - ERROR - Hello, World!
+2024-11-30 14:59:19,997 - ERROR - Hello, World!
+2024-11-30 14:59:35,096 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:59:38,105 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:59:39,108 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 51, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-11-30 14:59:39,151 - ERROR - Random status code generated: 400
+2024-11-30 14:59:39,156 - ERROR - Random status code generated: 400
+2024-11-30 14:59:44,182 - ERROR - Hello, World!
+2024-11-30 14:59:44,184 - ERROR - Hello, World!
+2024-11-30 14:59:44,185 - ERROR - Hello, World!
+2024-11-30 14:59:44,186 - ERROR - Hello, World!
+2024-11-30 14:59:44,187 - ERROR - Hello, World!
+2024-11-30 14:59:44,188 - ERROR - Hello, World!
+2024-11-30 14:59:44,189 - ERROR - Hello, World!
+2024-11-30 14:59:44,190 - ERROR - Hello, World!
+2024-11-30 14:59:44,191 - ERROR - Hello, World!
+2024-11-30 14:59:44,192 - ERROR - Hello, World!
