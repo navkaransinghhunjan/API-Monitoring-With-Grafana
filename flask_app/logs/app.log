@@ -10358,3 +10358,80 @@ ValueError: Demo Error!
 2024-12-04 10:46:19,905 - ERROR - Hello, World!
 2024-12-04 10:46:19,906 - ERROR - Hello, World!
 2024-12-04 10:46:19,907 - ERROR - Hello, World!
+2024-12-04 10:46:35,002 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:46:40,013 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:46:41,017 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:46:41,034 - ERROR - Random status code generated: 400
+2024-12-04 10:46:41,036 - ERROR - Random status code generated: 400
+2024-12-04 10:46:41,039 - ERROR - Random status code generated: 400
+2024-12-04 10:46:41,041 - ERROR - Random status code generated: 400
+2024-12-04 10:46:41,042 - ERROR - Random status code generated: 400
+2024-12-04 10:46:41,044 - ERROR - Random status code generated: 500
+2024-12-04 10:46:46,063 - ERROR - Hello, World!
+2024-12-04 10:46:46,064 - ERROR - Hello, World!
+2024-12-04 10:46:46,066 - ERROR - Hello, World!
+2024-12-04 10:46:46,067 - ERROR - Hello, World!
+2024-12-04 10:46:46,069 - ERROR - Hello, World!
+2024-12-04 10:46:46,070 - ERROR - Hello, World!
+2024-12-04 10:46:46,071 - ERROR - Hello, World!
+2024-12-04 10:46:46,072 - ERROR - Hello, World!
+2024-12-04 10:46:46,074 - ERROR - Hello, World!
+2024-12-04 10:46:46,075 - ERROR - Hello, World!
+2024-12-04 10:47:01,172 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:01,179 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:05,190 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:05,225 - ERROR - Random status code generated: 400
+2024-12-04 10:47:05,230 - ERROR - Random status code generated: 500
+2024-12-04 10:47:10,252 - ERROR - Hello, World!
+2024-12-04 10:47:10,254 - ERROR - Hello, World!
+2024-12-04 10:47:10,255 - ERROR - Hello, World!
+2024-12-04 10:47:10,257 - ERROR - Hello, World!
+2024-12-04 10:47:10,258 - ERROR - Hello, World!
+2024-12-04 10:47:10,260 - ERROR - Hello, World!
+2024-12-04 10:47:10,261 - ERROR - Hello, World!
+2024-12-04 10:47:10,262 - ERROR - Hello, World!
+2024-12-04 10:47:10,263 - ERROR - Hello, World!
+2024-12-04 10:47:10,265 - ERROR - Hello, World!
+2024-12-04 10:47:24,345 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:27,355 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:32,367 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:32,396 - ERROR - Random status code generated: 500
+2024-12-04 10:47:32,397 - ERROR - Random status code generated: 400
+2024-12-04 10:47:32,400 - ERROR - Random status code generated: 500
+2024-12-04 10:47:32,403 - ERROR - Random status code generated: 500
