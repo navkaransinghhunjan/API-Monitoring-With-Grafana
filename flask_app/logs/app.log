@@ -10435,3 +10435,42 @@ ValueError: Demo Error!
 2024-12-04 10:47:32,397 - ERROR - Random status code generated: 400
 2024-12-04 10:47:32,400 - ERROR - Random status code generated: 500
 2024-12-04 10:47:32,403 - ERROR - Random status code generated: 500
+2024-12-04 10:47:37,431 - ERROR - Hello, World!
+2024-12-04 10:47:37,433 - ERROR - Hello, World!
+2024-12-04 10:47:37,434 - ERROR - Hello, World!
+2024-12-04 10:47:37,435 - ERROR - Hello, World!
+2024-12-04 10:47:37,436 - ERROR - Hello, World!
+2024-12-04 10:47:37,437 - ERROR - Hello, World!
+2024-12-04 10:47:37,439 - ERROR - Hello, World!
+2024-12-04 10:47:37,440 - ERROR - Hello, World!
+2024-12-04 10:47:37,441 - ERROR - Hello, World!
+2024-12-04 10:47:37,442 - ERROR - Hello, World!
+2024-12-04 10:47:51,540 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:56,552 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:57,561 - ERROR - Error in /random_sleep endpoint
+Traceback (most recent call last):
+  File "/app/app.py", line 52, in random_sleep
+    raise ValueError("Demo Error!")  # Simulated error for testing
+ValueError: Demo Error!
+2024-12-04 10:47:57,577 - ERROR - Random status code generated: 500
+2024-12-04 10:47:57,581 - ERROR - Random status code generated: 400
+2024-12-04 10:47:57,584 - ERROR - Random status code generated: 500
+2024-12-04 10:47:57,588 - ERROR - Random status code generated: 400
+2024-12-04 10:48:02,606 - ERROR - Hello, World!
+2024-12-04 10:48:02,608 - ERROR - Hello, World!
+2024-12-04 10:48:02,609 - ERROR - Hello, World!
+2024-12-04 10:48:02,610 - ERROR - Hello, World!
+2024-12-04 10:48:02,611 - ERROR - Hello, World!
+2024-12-04 10:48:02,612 - ERROR - Hello, World!
+2024-12-04 10:48:02,614 - ERROR - Hello, World!
+2024-12-04 10:48:02,615 - ERROR - Hello, World!
+2024-12-04 10:48:02,616 - ERROR - Hello, World!
+2024-12-04 10:48:02,617 - ERROR - Hello, World!
