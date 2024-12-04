@@ -6,3 +6,4 @@ Jinja2==3.0.3
 MarkupSafe==2.1.1
 Werkzeug==2.0.3
 datadog==0.44.0
+prometheus_client
