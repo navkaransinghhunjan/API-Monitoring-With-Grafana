@@ -22,7 +22,7 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - /home/navkaransingh/work_projects/flask-monitoring/etc/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./etc/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
 
@@ -31,9 +31,9 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - /home/navkaransingh/work_projects/flask-monitoring/etc/grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
-      - /home/navkaransingh/work_projects/flask-monitoring/etc/dashboards.yaml:/etc/grafana/provisioning/dashboards/dashboards.yaml
-      - /home/navkaransingh/work_projects/flask-monitoring/etc/dashboards:/etc/grafana/dashboards
+      - ./etc/grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
+      - ./etc/dashboards.yaml:/etc/grafana/provisioning/dashboards/dashboards.yaml
+      - ./etc/dashboards:/etc/grafana/dashboards
     depends_on:
       - prometheus
       - loki
@@ -60,7 +60,7 @@ services:
       - "9080:9080"
     volumes:
       - ./flask_app/logs:/var/log/flask
-      - /home/navkaransingh/work_projects/flask-monitoring/etc/promtail/config.yml:/etc/promtail/promtail-config.yaml
+      - ./etc/promtail/config.yml:/etc/promtail/promtail-config.yaml
     depends_on:
       - loki
     command:
