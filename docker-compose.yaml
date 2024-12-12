@@ -38,9 +38,21 @@ services:
       - prometheus
       - loki
     environment:
-      GF_AUTH_ANONYMOUS_ENABLED: "true"
-      GF_AUTH_ANONYMOUS_ORG_ROLE: "Admin"
-      GF_AUTH_DISABLE_LOGIN_FORM: "true"
+      # GF_AUTH_AZUREAD_ENABLED: "true"
+      # GF_AUTH_AZUREAD_CLIENT_ID: "your_client_id"
+      # GF_AUTH_AZUREAD_CLIENT_SECRET: "your_client_secret"
+      # GF_AUTH_AZUREAD_AUTH_URL: "https://login.microsoftonline.com/<tenant_id>/oauth2/v2.0/authorize"
+      # GF_AUTH_AZUREAD_TOKEN_URL: "your_azuread_token"
+      # GF_AUTH_AZUREAD_API_URL: "https://graph.microsoft.com/v1.0/me"
+      # GF_SERVER_ROOT_URL: "your_grafana_url"
+      # GF_AUTH_AZUREAD_ALLOW_SIGN_UP: "true"
+      # GF_AUTH_GOOGLE_ENABLED: "true"
+      # GF_AUTH_GOOGLE_CLIENT_ID: "your_client_id"
+      # GF_AUTH_GOOGLE_CLIENT_SECRET: "your_client_secret"
+      # GF_AUTH_GOOGLE_SCOPES: "https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email"
+      GF_SECURITY_ADMIN_USER: "admin"
+      GF_SECURITY_ADMIN_PASSWORD: "admin"
+      # GF_SECURITY_ADMIN_EMAIL: "your@email.com"
 
   loki:
     image: grafana/loki:3.1.2 # or your custom image if you've built it
@@ -49,7 +61,7 @@ services:
       - "3100:3100"  # HTTP port for Loki
       - "9095:9095"  # gRPC port for Loki
     volumes:
-      - ./loki-config.yml:/etc/loki/loki-config.yml  # Mount the updated configuration file
+      - .etc/loki/loki-config.yml:/etc/loki/loki-config.yml  # Mount the updated configuration file
     environment:
       - LOki_VERSION=3.1.2  # Optional, to pass environment variables if needed
     restart: always  # Optional: Restart container if it fails
@@ -65,3 +77,8 @@ services:
       - loki
     command:
       - '--config.file=/etc/promtail/promtail-config.yaml'
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node_exporter
+    ports:
+      - "9100:9100"  # Default port for Node Exporter

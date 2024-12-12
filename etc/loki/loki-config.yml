@@ -33,14 +33,9 @@ schema_config:
         prefix: index_
         period: 24h
 
-# Remove invalid fields
-pattern_ingester:
-  enabled: true
-  loki_address: localhost:3100
-
-# Ensure correct compactor and retention settings
 compactor:
   working_directory: /tmp/loki/data
+  shared_store: filesystem
 
 table_manager:
   retention_deletes_enabled: true

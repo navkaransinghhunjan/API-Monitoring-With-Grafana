@@ -9,7 +9,10 @@ This project provides a Flask-based web application that monitors performance me
 StatsD Integration: Tracks API request performance and sends metrics to a StatsD server for real-time monitoring.
 * Logging: Logs application events and errors to a file for further analysis and debugging.
 * Metrics Visualization: The metrics can be visualized using Prometheus and Grafana, allowing you to monitor the health of your API in real-time.
-
+* Node Exporter: Monitors system-level metrics, such as CPU, memory, and disk usage, providing insights into server health.
+* Authentication Support:
+    1. Azure AD: Enables secure authentication through Azure Active Directory.
+    2. Google OAuth: Allows users to log in using their Google accounts.
 
 ## Directory Structure
 
